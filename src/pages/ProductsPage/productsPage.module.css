@@ -1,0 +1,20 @@
+.btn{
+    display: block;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(109, 71, 71);
+}
+/* .item{
+    display: flex;
+    justify-content: space-between;
+} */
+.list{
+    list-style: none;
+}
+.name{
+    font-size: 30px;
+    font-weight: 700;
+}

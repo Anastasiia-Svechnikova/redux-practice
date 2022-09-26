@@ -5,8 +5,42 @@
     font-size: 30px;
     color: grey;
 }
+.item:hover, 
+.item:focus{
+    color: rgb(109, 71, 71);
+}
 
 .item.active {
     color: rgb(237, 157, 157);
     border-bottom: 1px solid red;
+}
+.btn{
+    margin-left: auto;
+    width: 40px;
+    height: 40px;
+    background-color: #ed9d9d;
+    border:none;
+    border-radius: 3px;
+    margin: 0;
+    padding: 3px;
+}
+.btn:hover,
+.btn:focus {
+    background-color: rgb(109, 71, 71);
+}
+.nav{
+    display: flex;
+    background-color: rgb(241, 232, 232);
+}
+.bar{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+display: flex;
+align-items: center;
+list-style: none;
+margin: 0;
 }

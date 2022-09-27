@@ -26,7 +26,7 @@
 }
 .btn:hover,
 .btn:focus {
-    background-color: rgb(109, 71, 71);
+    background-color: #6d4747;
 }
 .nav{
     display: flex;
@@ -43,4 +43,9 @@ display: flex;
 align-items: center;
 list-style: none;
 margin: 0;
+}
+.number{
+    color: #ed9d9d;
+    vertical-align: top;
+    font-size: 20px;
 }

@@ -3,7 +3,7 @@ import {headerItems} from './items';
 import s from './header.module.css';
 import { AiOutlineMenu } from 'react-icons/ai';
 import {BsBasket3Fill  } from 'react-icons/bs';
-
+import { useSelector } from 'react-redux';
 import { useState } from 'react';
 
 
@@ -20,9 +20,10 @@ const getItemList = (items) => {
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  
   const headerElements = getItemList(headerItems);
- 
+  
+  const basket = useSelector(state => state.basket);
 
   return (
     <>
@@ -35,7 +36,7 @@ const Header = () => {
         </button>
           </li>
           <li>
-            <NavLink className={getActiveClassName} to='/basket' end><BsBasket3Fill fill="#ed9d9d"/></NavLink>
+            <NavLink className={getActiveClassName} to='/basket' end><BsBasket3Fill fill="#ed9d9d" />{basket.length && <span className={s.number}> { basket.length}</span>}</NavLink>
           </li>
         </ul>
       </div>

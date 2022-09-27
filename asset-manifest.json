@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/redux-practice/static/css/main.15eb30d6.css",
-    "main.js": "/redux-practice/static/js/main.a2f7fd27.js",
+    "main.css": "/redux-practice/static/css/main.2aced94c.css",
+    "main.js": "/redux-practice/static/js/main.e419fd07.js",
     "static/js/35.bdad462e.chunk.js": "/redux-practice/static/js/35.bdad462e.chunk.js",
     "static/css/816.ff7421e5.chunk.css": "/redux-practice/static/css/816.ff7421e5.chunk.css",
     "static/js/816.75327e03.chunk.js": "/redux-practice/static/js/816.75327e03.chunk.js",
@@ -9,8 +9,8 @@
     "static/js/926.5bba1355.chunk.js": "/redux-practice/static/js/926.5bba1355.chunk.js",
     "static/js/150.87091f7e.chunk.js": "/redux-practice/static/js/150.87091f7e.chunk.js",
     "index.html": "/redux-practice/index.html",
-    "main.15eb30d6.css.map": "/redux-practice/static/css/main.15eb30d6.css.map",
-    "main.a2f7fd27.js.map": "/redux-practice/static/js/main.a2f7fd27.js.map",
+    "main.2aced94c.css.map": "/redux-practice/static/css/main.2aced94c.css.map",
+    "main.e419fd07.js.map": "/redux-practice/static/js/main.e419fd07.js.map",
     "35.bdad462e.chunk.js.map": "/redux-practice/static/js/35.bdad462e.chunk.js.map",
     "816.ff7421e5.chunk.css.map": "/redux-practice/static/css/816.ff7421e5.chunk.css.map",
     "816.75327e03.chunk.js.map": "/redux-practice/static/js/816.75327e03.chunk.js.map",
@@ -19,7 +19,7 @@
     "150.87091f7e.chunk.js.map": "/redux-practice/static/js/150.87091f7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15eb30d6.css",
-    "static/js/main.a2f7fd27.js"
+    "static/css/main.2aced94c.css",
+    "static/js/main.e419fd07.js"
   ]
 }

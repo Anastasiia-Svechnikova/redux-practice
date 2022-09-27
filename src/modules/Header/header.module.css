@@ -12,7 +12,7 @@
 
 .item.active {
     color: rgb(237, 157, 157);
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid rgb(109, 71, 71);
 }
 .btn{
     margin-left: auto;
